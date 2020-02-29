@@ -1,0 +1,27 @@
+{
+    "name": "lighty-theme",
+    "displayName": "Lighty Theme",
+    "publisher": "blckraven",
+    "icon": "images/icon.png",
+    "description": "Light & modern theme for Your code.",
+    "version": "1.0.0",
+    "engines": {
+        "vscode": "^1.42.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Lighty Theme",
+                "uiTheme": "vs",
+                "path": "./themes/lighty-theme-color-theme.json"
+            }
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/blckraven/vscode-lighty-theme"
+    }
+}
